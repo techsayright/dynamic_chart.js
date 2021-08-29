@@ -1,0 +1,31 @@
+html{
+  font-size: 62.5%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.isErr{
+  height: 30rem ;
+  width: 50vw;
+  background-color: silver;
+  font-size: 2rem;
+  color: red;
+  display: flex;
+  margin-top: 7rem ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 950px) {
+  html{
+    font-size: 40%;
+  }
+}
+
